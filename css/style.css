@@ -1,0 +1,319 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.Titulo{
+    font-size: 2em;
+    margin-top: auto;
+    margin-left: 1em;
+    margin-right: auto;
+    
+}
+header{
+    margin-top: 4%
+    
+    
+}
+header nav {
+    border-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left ;
+    align-items: baseline;
+    flex-grow: ;
+}
+header nav ul li{
+    border-top: 50px;
+}
+.pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.shows{
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.card-title{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+
+}
+body { background: black;
+     font-family: 'Oswald', sans-serif; }
+
+     nav{
+         background: black;
+         height: 80px
+     }
+nav ul li{ 
+    font-weight: 200px;
+    font-size: 1.125em;
+    line-height: 30px;
+   /* margin: 15px;*/
+    float: left;
+    list-style: none;
+    line-height: 40px; 
+    color: white;
+    transition: 1s;
+}
+nav ul li :hover{
+    background: tomato;
+    color: white;
+    transition: background-color 2s;
+    border-radius: 10px;
+}
+
+.Titulo{
+    pointer-events:none;
+}
+
+.contenido{
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid black
+}
+
+img { width: 100%;}
+
+header { background-color: black;
+    width: 100%;
+    line-height: 0% ;
+     color: white; 
+     } 
+a {color: white;
+  text-decoration: none;
+  padding: 20px 25px;
+}
+
+h2{ margin: 0.5%;
+    display: inline-block;
+    color: tomato;
+    line-height: 200%; 
+    font-size: 2.188em;
+} 
+#parrafo{
+    color: tomato;
+    font-size: 1.25em;
+    line-height: 1.3em ;
+    word-spacing: 0.2em;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 80%;
+}
+.Presentacion{
+    justify-content: center;
+    margin-top: 2em;
+    margin-left: 17em;
+    margin-right: auto;
+    letter-spacing: 0.1em ;
+}
+.copyright{
+    color: orangered;
+    font-size: 19px;
+}
+.3{
+    border-radius: 10px;
+
+}
+
+footer{background-color: black; }
+footer ul li a{
+    color: tomato;
+    
+}
+footer ul li { 
+    list-style: none;
+    float: left;
+    background: black;
+    
+}
+h3{color: white;
+    font-size: 1.125em;
+}
+/*
+.card-body{
+    background-color: tomato; 
+}*/
+.Fotosaliens card mb-3 row g-0{
+    margin-left: 10%; 
+    margin-right: 10%;
+    max-width: 80%;  
+    grid-template-columns: center
+}
+. card mb-3 {
+    background-color: tomato; !important
+}  
+    
+}
+.Fotosaliens { 
+    display: flex;
+   /* border-top: 10%;
+    border-left: 10%;
+    border-right: 10%;*/
+    flex-direction: column;
+    justify-content: center ; 
+    margin-left: 10%; !important
+    margin-right: 10%; !important
+    max-width: 80%; !important
+    grid-template-columns: center
+    justify-content: center;
+    
+    
+    /*justify-content: center;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-content: center
+    width: 200px;
+    height: 200px;
+    
+    padding: 10px;
+    margin-top: 10px;
+    grid-gap: 10px;
+    row-gap; 10px;
+    
+    border-style:
+   */
+} 
+
+.discos{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+.discos a {
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 80%;
+
+} !important
+.ovni {
+    
+   /* max-height: 25em;*/
+    border-radius: 10px;
+}
+rounded mx-auto d-block{
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 80%;
+    max-height: auto;
+}!important
+
+#fotogrupal {
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 80%;
+    max-height: auto;
+    border-radius: 10px;
+}
+.shows { color: tomato;
+    font-size: 1.125em;
+}
+fieldset{color: black;
+         background-color: tomato;
+
+}
+
+.contact-form {
+    background: #2a282a;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form p {
+margin: 0;
+padding: 1em;
+color: tomato;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #ffffff;
+    border-bottom: 1px solid tomato;
+}
+
+.contact-form form button {
+background: tomato;
+color: #2a282a;
+border: 0;
+text-transform: uppercase;
+font-weight: bold;
+padding: 1em;
+}
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: #d63031;
+    color: #ffffff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+    cursor: pointer;
+}
+
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;  
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 80%;
+    grid-template-columns: center
+;
+    }    
+
+.contact-wrapper > * {
+    padding: 2em;
+    }
+/* media queries*/
+/*areas en comun a todos*/
+header{
+    grid-area: header;
+}
+/*
+footer{
+    grid-area: footer;
+}*/
+/*index*/
+article{
+    grid-area: article;
+}
+/*discografia*/
+discos{
+    grid-area: discos;
+}
+/*Losaliens*/
+.Fotosaliens{
+    grid-area: fotosaliens;
+}
+/*proximos shows*/
+.shows{
+    grid-area: shows;
+}
+/*contactenos*/
+.content{
+    grid-area: content;
+}
+/*
+article{
+    display: grid;
+}*/
+
+.card mb-3{
+   justify-content: center; !important
+}
