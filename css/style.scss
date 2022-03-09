@@ -1,7 +1,10 @@
+@import "variables";
 
 body {
     background-color: black;
   }
+$h5{ }
+
   /*Navegador*/
 
 .Logogif{
@@ -18,14 +21,14 @@ body {
   
   nav ul li {
     border-radius: 3px;
-    font-family: 'Orbitron', sans-serif;
+    font-family: map-get($tipos, $key:2 );
     margin-left: 30px;
     :hover {
     border-radius: 3px;
     background: tomato;
     color: white;
-    -webkit-transition: background-color 1s;
-    transition: background-color 1s;
+    -webkit-transition: background-color 0,5s;
+    transition: background-color 0,5s;
     display: block;}
   }
   
@@ -41,12 +44,12 @@ body {
   
   .h2 {
     color: tomato;
-    font-family: 'Orbitron', sans-serif;
+    font-family: map-get($tipos, $key:2 );
   }
   
   .h4 {
     color: rgb(170, 157, 112);
-    font-family: 'Fjalla One', sans-serif;
+    font-family: map-get($tipos, $key:1 );
   }
 
   .links {
@@ -134,7 +137,7 @@ body {
 
 h3{
     color: wheat;
-    font-family: 'Orbitron', sans-serif;
+    font-family: map-get($tipos, $key:2 );
     margin-left: 2%;
   }
   
@@ -148,6 +151,7 @@ h3{
   td a {
     text-decoration: none;
     color: whitesmoke;
+    :hover { color: black;} 
   }
   th, td{
     padding: 15px;
@@ -225,9 +229,10 @@ padding: 1em;
 .contact-wrapper {
     display: grid;
     grid-template-columns: 1fr;  
-    margin-left: 10%;
+    /*margin-left: 10%;
     margin-right: 10%;
-    max-width: 80%;
+    max-width: 80%;*/
+    @extend .discos a;
     grid-template-columns: center;
 }    
 
@@ -236,6 +241,10 @@ padding: 1em;
     }
 
 /*CARDS*/
+@mixin negrita {
+    font-weight: bold;
+  }
+
 .links2 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -247,8 +256,10 @@ padding: 1em;
     -ms-flex-pack: flex-end;
     justify-content: flex-end;
     a {
+    
     margin: 0 10px;
     i {
+    @include negrita; 
     font-size: 3rem;}
   }
 } 
@@ -259,5 +270,5 @@ padding: 1em;
     margin-left: 0em;
   }    
 
- 
+  
   

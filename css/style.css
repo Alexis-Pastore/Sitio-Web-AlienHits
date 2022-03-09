@@ -24,8 +24,8 @@ nav ul li :hover {
   border-radius: 3px;
   background: tomato;
   color: white;
-  -webkit-transition: background-color 1s;
-  transition: background-color 1s;
+  -webkit-transition: background-color 0,5s;
+  transition: background-color 0,5s;
   display: block;
 }
 
@@ -167,6 +167,10 @@ td a {
   color: whitesmoke;
 }
 
+td a :hover {
+  color: black;
+}
+
 th, td {
   padding: 15px;
   color: whitesmoke;
@@ -250,6 +254,7 @@ tr:hover {
   margin-left: 10%;
   margin-right: 10%;
   max-width: 80%;
+  
   -ms-grid-columns: center;
       grid-template-columns: center;
 }
