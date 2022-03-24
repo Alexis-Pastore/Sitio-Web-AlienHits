@@ -9,6 +9,7 @@ body {
 }
 
 header {
+  
   margin-top: 0em;
   left: 0;
   right: 0;
@@ -36,9 +37,18 @@ nav ul li :hover {
 
 .container-lg {
   background-color: #0e0a13;
-}
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 
+  
+}
+.img-fluid{
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
 .h2 {
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
   color: tomato;
   font-family: 'Orbitron', sans-serif;
 }
@@ -73,58 +83,17 @@ nav ul li :hover {
   color: tomato;
 }
 
-.footer-container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.footer-container ul li {
-  line-height: 1.8;
-}
-
-.footer-container h2 h3 h4 h5 h6 {
-  font-size: 20px;
-}
-
-.footer-links {
-  background: black;
-  color: tomato;
-  font-size: 16px;
-  padding: 10px 0;
-}
-
 .footer {
   background: #0e0a13;
   color: #ffffff;
   font-size: 16px;
-  padding: 10px 0;
   text-align: left;
-  padding-bottom: 20px;
-  margin: 0 auto;
+  padding: 20px;
+  
 }
 
 /* Discografia */
-.discos {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: baseline;
-      -ms-flex-pack: baseline;
-          justify-content: baseline;
-}
+
 
 .discos a {
   margin-left: 10%;
@@ -145,6 +114,9 @@ nav ul li :hover {
 }
 
 /* Shows */
+.video{
+  margin-top: 2em;
+}
 .shows ol li {
   font-size: 30px;
 }
@@ -192,6 +164,7 @@ tr:hover {
 }
 
 /* Contacto */
+
 .contact-form h3 {
   color: white;
 }
@@ -200,7 +173,7 @@ tr:hover {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .contact-form form .block {
@@ -250,44 +223,54 @@ tr:hover {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
   margin-left: 10%;
   margin-right: 10%;
   max-width: 80%;
-  
   -ms-grid-columns: center;
-      grid-template-columns: center;
+  grid-template-columns: center;
 }
 
 .contact-wrapper > * {
   padding: 2em;
 }
 
-/*CARDS*/
-.links2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: flex-end;
-  -ms-flex-align: flex-end;
-  align-items: flex-end;
-  -webkit-box-pack: flex-end;
-  -ms-flex-pack: flex-end;
-  justify-content: flex-end;
+/*Nosotros*/
+.Somos{
+  background-color: dark;
+  padding-top: 3em;
+  margin-top: 30%;
+  border-top: 30em;
+
+}
+.card-title{
+  margin-bottom: 2em;
+margin-left: 0em;
+}
+.card-text{
+  margin-bottom: 2em;
+  margin-left: 0px;
+}
+.col-md-4{
+  margin-left: 1px;
+  margin-right: -5px;
+  
+
 }
 
 .links2 a {
-  margin: 0 10px;
+  margin: 2em, 0em, 1em, 0em;
 }
 
 .links2 a i {
   font-size: 3rem;
+
 }
 
 .links2
 .links2 a
 .card-title {
   -ms-flex-align: flex-start;
-  margin-left: 0em;
+  margin-left: 2em;
 }
 /*# sourceMappingURL=style.css.map */

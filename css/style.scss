@@ -13,7 +13,6 @@ $h5{ }
   
   }
   header {
-    
     margin-top: 0em;
     left: 0;
     right: 0;
@@ -43,6 +42,8 @@ $h5{ }
   }
   
   .h2 {
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
     color: tomato;
     font-family: map-get($tipos, $key:2 );
   }
@@ -69,34 +70,13 @@ $h5{ }
     color: tomato;
 }
 
-.footer-container {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 10px;
-    align-items: flex-start;
-    justify-content: center;
-    ul li {
-        line-height: 1.8;
-    }
-    h2 h3 h4 h5 h6{
-        font-size: 20px;
-    }
-}
-
-.footer-links {
-    background: black;
-    color: tomato;
-    font-size: 16px;
-    padding: 10px 0;
-}
 .footer {
-    background: #0e0a13;
-    color: #ffffff;
-    font-size: 16px;
-    padding: 10px 0;
-    text-align: left;
-    padding-bottom: 20px;
-    margin: 0 auto;
+  background: #0e0a13;
+  color: #ffffff;
+  font-size: 16px;
+  padding-top 2em;
+  text-align: left;
+  padding: 20px;
 }
 
 
@@ -131,6 +111,9 @@ $h5{ }
         li{
          font-size: 30px;
         
+    }
+    .video{
+      margin-top: 2em;
     }
 }
 }
@@ -232,7 +215,7 @@ padding: 1em;
     /*margin-left: 10%;
     margin-right: 10%;
     max-width: 80%;*/
-    @extend .discos a;
+    .discos a;
     grid-template-columns: center;
 }    
 
@@ -240,21 +223,57 @@ padding: 1em;
     padding: 2em;
     }
 
-/*CARDS*/
+/*Nosotros*/
 @mixin negrita {
     font-weight: bold;
   }
+.card-body{
+  .Somos{
+    background-color: dark;
+    padding-top: 3em;
+    margin-top: 30%;
+    border-top: 30em;
+    .card-title{
+      margin-bottom: 2em;
+    margin-left: 0em;
+    }
+    .card-text{
+      margin-bottom: 2em;
+      margin-left: 0px;
+    }
+    .col-md-4{
+      margin-left: 5px;
+     
+      
+    
+    }
+    
+    .links2 a {
+      margin: 2em, 0em, 1em, 0em;
+    }
+    
+    .links2 a i {
+      font-size: 3rem;
+    
+    }
+    
+    .links2
+    .links2 a
+    .card-title {
+      -ms-flex-align: flex-start;
+      margin-left: 2em;
+    }
+  }
+  .card-title{
+    margin-bottom: 2.5em;
+  }
+  .card-text{
+    margin-bottom: 2em;
+    margin-left: 1em;
+  }
 
-.links2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: flex-end;
-    -ms-flex-align: flex-end;
-    align-items: flex-end;
-    -webkit-box-pack: flex-end;
-    -ms-flex-pack: flex-end;
-    justify-content: flex-end;
+}
+
     a {
     
     margin: 0 10px;
